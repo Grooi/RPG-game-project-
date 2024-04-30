@@ -1,0 +1,178 @@
+﻿  door.cpp
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,62): warning C4244: '引數': 將 'const T' 轉換為 'T'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,62): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,62): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,62): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,62): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,62): warning C4244:         and
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,62): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,62): warning C4244:             T=int
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,62): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,54): warning C4244: '引數': 將 'const T' 轉換為 'T'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,54): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,54): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,54): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,54): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,54): warning C4244:         and
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,54): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,54): warning C4244:             T=int
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\door.cpp(20,54): warning C4244:         ]
+  ImpactCheck.cpp
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ImpactCheck.cpp(2,10): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+  NPC.cpp
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,63): warning C4244: '引數': 將 'const T' 轉換為 'T'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,63): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,63): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,63): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,63): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,63): warning C4244:         and
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,63): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,63): warning C4244:             T=int
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,63): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,55): warning C4244: '引數': 將 'const T' 轉換為 'T'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,55): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,55): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,55): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,55): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,55): warning C4244:         and
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,55): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,55): warning C4244:             T=int
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(22,55): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(37,31): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\NPC.cpp(37,28): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  Wall.cpp
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,62): warning C4244: '引數': 將 'T' 轉換為 'T'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,62): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,62): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,62): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,62): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,62): warning C4244:         and
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,62): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,62): warning C4244:             T=int
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,62): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,54): warning C4244: '引數': 將 'T' 轉換為 'T'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,54): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,54): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,54): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,54): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,54): warning C4244:         and
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,54): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,54): warning C4244:             T=int
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Wall.cpp(20,54): warning C4244:         ]
+  Local_Image.cpp
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Local_Image.cpp(27,37): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Local_Image.cpp(27,25): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Local_Image.cpp(31,22): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Local_Image.cpp(31,19): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  main.cpp
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\main.cpp(12,10): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\main.cpp(31,41): warning C4244: '引數': 將 'T' 轉換為 'const unsigned __int64'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\main.cpp(31,41): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\main.cpp(31,41): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\main.cpp(31,41): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\main.cpp(31,41): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\main.cpp(31,73): warning C4244: '引數': 將 'T' 轉換為 'const unsigned __int64'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\main.cpp(31,73): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\main.cpp(31,73): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\main.cpp(31,73): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\main.cpp(31,73): warning C4244:         ]
+  MapDataLoader.cpp
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\MapDataLoader.cpp(41,13): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\MapDataLoader.cpp(62,20): warning C4244: '=': 將 'int' 轉換為 'T'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\MapDataLoader.cpp(62,20): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\MapDataLoader.cpp(62,20): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\MapDataLoader.cpp(62,20): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\MapDataLoader.cpp(62,20): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\MapDataLoader.cpp(63,20): warning C4244: '=': 將 'int' 轉換為 'T'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\MapDataLoader.cpp(63,20): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\MapDataLoader.cpp(63,20): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\MapDataLoader.cpp(63,20): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\MapDataLoader.cpp(63,20): warning C4244:         ]
+  ObjectSignSheet.cpp
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(6,8): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(7,8): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(8,8): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(28,90): warning C4244: '引數': 將 'double' 轉換為 'const int'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(30,79): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(30,92): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(31,41): warning C4244: '引數': 將 'T' 轉換為 'const unsigned __int64'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(31,41): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(31,41): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(31,41): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(31,41): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(31,82): warning C4244: '引數': 將 'T' 轉換為 'const unsigned __int64'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(31,82): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(31,82): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(31,82): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(31,82): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(36,90): warning C4244: '引數': 將 'double' 轉換為 'const int'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(38,79): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(38,92): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(39,41): warning C4244: '引數': 將 'T' 轉換為 'const unsigned __int64'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(39,41): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(39,41): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(39,41): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(39,41): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(39,82): warning C4244: '引數': 將 'T' 轉換為 'const unsigned __int64'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(39,82): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(39,82): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(39,82): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(39,82): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(44,86): warning C4244: '引數': 將 'double' 轉換為 'const int'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(47,62): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(48,39): warning C4244: '引數': 將 'T' 轉換為 'const unsigned __int64'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(48,39): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(48,39): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(48,39): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(48,39): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(48,78): warning C4244: '引數': 將 'T' 轉換為 'const unsigned __int64'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(48,78): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(48,78): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(48,78): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(48,78): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\ObjectSignSheet.cpp(53,8): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  Player.cpp
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,64): warning C4244: '引數': 將 'const T' 轉換為 'T'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,64): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,64): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,64): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,64): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,64): warning C4244:         and
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,64): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,64): warning C4244:             T=int
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,64): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,55): warning C4244: '引數': 將 'const T' 轉換為 'T'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,55): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,55): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,55): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,55): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,55): warning C4244:         and
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,55): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,55): warning C4244:             T=int
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(17,55): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(34,31): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(34,28): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(68,23): warning C4244: '-=': 將 'double' 轉換為 'T'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(68,23): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(68,23): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(68,23): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(68,23): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(73,23): warning C4244: '-=': 將 'double' 轉換為 'T'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(73,23): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(73,23): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(73,23): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(73,23): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(78,23): warning C4244: '+=': 將 'double' 轉換為 'T'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(78,23): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(78,23): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(78,23): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(78,23): warning C4244:         ]
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(83,23): warning C4244: '+=': 將 'double' 轉換為 'T'，由於類型不同，可能導致資料遺失
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(83,23): warning C4244:         with
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(83,23): warning C4244:         [
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(83,23): warning C4244:             T=float
+C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\Rpg-Game\Player.cpp(83,23): warning C4244:         ]
+  正在產生程式碼...
+LINK : warning LNK4075: 忽略 '/INCREMENTAL'，由於 '/LTCG' 規格
+  LINK : 指定了 /LTCG，但未要求程式碼產生，請從連結命令列移除 /LTCG 以提升連結器效能
+  Rpg-Game.vcxproj -> C:\Users\v7185\OneDrive\桌面\研究與試驗\Rpg-Game\x64\Debug\Rpg-Game.exe
