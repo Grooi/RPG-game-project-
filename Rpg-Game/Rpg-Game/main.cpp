@@ -9,10 +9,7 @@
 #include "Player.h"
 #include "NPC.h"
 #include "Wall.h"
-#include "ImpactCheck.h";
-//型別定義資源
-#include "CustomizeType.h"
-
+#include "LogicJudge.h";
 
 int main() {
 	//創建視窗
@@ -59,14 +56,11 @@ int main() {
 		}
 		//事件處理
 		player.Action(Paper);
-		player.setPosition(ImpackChecker::ImpackCheck_StaticObject(Paper.RectangleShapeMap, player.getCollisionBlock1(), &size, player.getSpeed()));
-		player.setPosition(ImpackChecker::ImpackCheck_Enity(Paper.NpcSpace, player, &size));
-		for (int i = 0; i < Paper.NpcSpace.size(); i++) {
-			Paper.NpcSpace[i].setPosition(ImpackChecker::ImpackCheck_StaticObject(Paper.RectangleShapeMap, Paper.NpcSpace[i].getCollisionBlock1(), &size, Paper.NpcSpace[i].getSpeed()));
-		}
+		LogicJudge::ImpackCheck(Paper, player);
 
 		//更新資料
-		//MapDataLoder::loadRectangleShapeMap(Paper.RectangleShapeMap, player.getCollisionBlock1(), &width, &length, &size);
+		
+
 		//繪製
 		sprite.loadPicture(Paper.getSheet()[0]);//最底層圖片。小貼士:小心不要被覆蓋
 		for (int d_y = 0; d_y < length; d_y++) {
@@ -88,7 +82,7 @@ int main() {
 		}
 		
 		windows.draw(player.getSprite());
-		//windows.draw(player.getCollisionBlock1());//測試(非遊玩時顯示)
+		//windows.draw(player.getCollisionBlock());//測試(非遊玩時顯示)
 		windows.display();
 	}
 }

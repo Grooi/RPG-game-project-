@@ -142,8 +142,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="door.cpp" />
-    <ClCompile Include="ImpactCheck.cpp" />
+    <ClCompile Include="Enity.cpp" />
+    <ClCompile Include="LogicJudge.cpp" />
     <ClCompile Include="NPC.cpp" />
+    <ClCompile Include="Skill.cpp" />
     <ClCompile Include="Wall.cpp" />
     <ClCompile Include="Local_Image.cpp" />
     <ClCompile Include="main.cpp" />
@@ -153,14 +155,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="door.h" />
-    <ClInclude Include="ImpactCheck.h" />
+    <ClInclude Include="Enity.h" />
+    <ClInclude Include="LogicJudge.h" />
     <ClInclude Include="NPC.h" />
+    <ClInclude Include="Skill.h" />
     <ClInclude Include="Wall.h" />
     <ClInclude Include="Local_Image.h" />
     <ClInclude Include="MapDataLoader.h" />
     <ClInclude Include="ObjectSignSheet.h" />
     <ClInclude Include="Player.h" />
-    <ClInclude Include="CustomizeType.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

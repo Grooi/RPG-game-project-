@@ -15,15 +15,18 @@ public:
 	void setWallObject(int*, int*, int*, double);
 	void setDoorObject(int*, int*, int*, double);
 
+	void mapUpdata(std::string);
+
 	std::map<int, std::string> getSheet();
+
 	std::vector<sf::RectangleShape> RectangleShapeMap;
 	std::vector<std::vector<int>> MapData;
 	std::vector<wall> wallObject;
 	std::vector<door> doorObject;
 	std::vector<NPC> NpcSpace;
 
-
 private:
+	int length, width;
 	std::map<int, std::string> PictureSheet;
 	std::map<int, std::string> Sheet;
 };
