@@ -13,63 +13,108 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="來源檔案\Enity">
+      <UniqueIdentifier>{1e2d0850-a96b-41f1-9ce1-a855eef1a27d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Logic">
+      <UniqueIdentifier>{a9264c96-6a53-419d-8e47-5441be5e15a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Tool">
+      <UniqueIdentifier>{6b2dcc25-def3-4f5a-bb87-66b81b000fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\Logic">
+      <UniqueIdentifier>{d43b9bff-2abc-483b-92a4-6c41d0734835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\Enity">
+      <UniqueIdentifier>{5bb2529d-2aa7-4c9c-abf4-0f2a21fbd315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\Tool">
+      <UniqueIdentifier>{8c30d551-0273-492d-bb9d-ea130b592082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Skill">
+      <UniqueIdentifier>{3f1c55e5-bfe3-43b9-af4d-c5a390c796bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\Skill">
+      <UniqueIdentifier>{2b6c69e6-4402-42b2-95d2-c4b38049e71f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="Local_Image.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="MapDataLoader.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="ObjectSignSheet.cpp">
-      <Filter>來源檔案</Filter>
+    <ClCompile Include="NPC.cpp">
+      <Filter>來源檔案\Enity</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="Wall.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="ImpactCheck.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="NPC.cpp">
-      <Filter>來源檔案</Filter>
+      <Filter>來源檔案\Enity</Filter>
     </ClCompile>
     <ClCompile Include="door.cpp">
-      <Filter>來源檔案</Filter>
+      <Filter>來源檔案\Enity</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>來源檔案\Enity</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicJudge.cpp">
+      <Filter>來源檔案\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>來源檔案\Enity</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDataLoader.cpp">
+      <Filter>來源檔案\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Local_Image.cpp">
+      <Filter>來源檔案\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectSignSheet.cpp">
+      <Filter>來源檔案\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>來源檔案\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Enity.cpp">
+      <Filter>來源檔案\Enity</Filter>
+    </ClCompile>
+    <ClCompile Include="Stairs.cpp">
+      <Filter>來源檔案\Enity</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Local_Image.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="MapDataLoader.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjectSignSheet.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="CustomizeType.h">
-      <Filter>標頭檔</Filter>
+    <ClInclude Include="NPC.h">
+      <Filter>標頭檔\Enity</Filter>
     </ClInclude>
     <ClInclude Include="Wall.h">
-      <Filter>標頭檔</Filter>
+      <Filter>標頭檔\Enity</Filter>
     </ClInclude>
-    <ClInclude Include="ImpactCheck.h">
-      <Filter>標頭檔</Filter>
+    <ClInclude Include="Player.h">
+      <Filter>標頭檔\Enity</Filter>
     </ClInclude>
-    <ClInclude Include="NPC.h">
-      <Filter>標頭檔</Filter>
+    <ClInclude Include="Object.h">
+      <Filter>標頭檔\Enity</Filter>
     </ClInclude>
     <ClInclude Include="door.h">
-      <Filter>標頭檔</Filter>
+      <Filter>標頭檔\Enity</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDataLoader.h">
+      <Filter>標頭檔\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSignSheet.h">
+      <Filter>標頭檔\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Local_Image.h">
+      <Filter>標頭檔\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicJudge.h">
+      <Filter>標頭檔\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>標頭檔\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Enity.h">
+      <Filter>標頭檔\Enity</Filter>
+    </ClInclude>
+    <ClInclude Include="Stairs.h">
+      <Filter>標頭檔\Enity</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
