@@ -4,8 +4,13 @@
 NPC::NPC() {
 	skill = Skill(2);
 	type = "NPC";
-	hp = 100;
-	mp = 100;
+	name = "NPC";
+	info.hp = 100;
+	info.mp = 100;
+	info.ATK = 10;
+	info.Defense = 1;
+	info.speed = 8;
+	setOriginEnityInfo();
 	setCollisionBlock(&size);
 }
 
@@ -19,10 +24,6 @@ NPC::~NPC() {
 
 sf::Vector2f* NPC::getSize() {
 	return &size;
-}
-
-Skill NPC::getSkill() {
-	return skill;
 }
 
 void NPC::Action(sf::Clock* clock) {

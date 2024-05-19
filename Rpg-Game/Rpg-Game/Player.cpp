@@ -5,33 +5,41 @@
 Player::Player() {
 	skill = Skill(1);
 	type = "player";
-	hp = 200;
-	mp = 100;
+	name = "player";
+	info.hp = 200;
+	info.mp = 100;
+	info.ATK = 10;
+	info.Defense = 0.9;
+	info.speed = 8;
+	setOriginEnityInfo();
 	setCollisionBlock(&size);
+	collisionBlockFace.setSize(size);
+	collisionBlockFace.setFillColor(sf::Color::Red);
+	collisionBlockFace.setPosition(face);
 }
 
 void Player::Action(ObjectSignSheet& Paper) {
 	sf::Vector2f ActionPosition = position;
 	switch (MoveCheck()) {
 	case 0:
-		face = sf::Vector2f(position.x - (size.x), position.y);
-		ActionPosition.x -= speed;
+		ActionPosition.x -= info.speed;
 		setPosition(ActionPosition);
+		face = sf::Vector2f(position.x - (size.x), position.y);
 		break;
 	case 1:
-		face = sf::Vector2f(position.x, position.y - (size.y));
-		ActionPosition.y -= speed;
+		ActionPosition.y -= info.speed;
 		setPosition(ActionPosition);
+		face = sf::Vector2f(position.x, position.y - (size.y));
 		break;
 	case 2:
-		face = sf::Vector2f(position.x + (size.x), position.y);
-		ActionPosition.x += speed;
+		ActionPosition.x += info.speed;
 		setPosition(ActionPosition);
+		face = sf::Vector2f(position.x + (size.x), position.y);
 		break;
 	case 3:
-		face = sf::Vector2f(position.x, position.y + (size.y));
-		ActionPosition.y += speed;
+		ActionPosition.y += info.speed;
 		setPosition(ActionPosition);
+		face = sf::Vector2f(position.x, position.y + (size.y));
 		break;
 	case 4:
 		for (int i = 0; i < Paper.doorObject.size(); i++) {//door
@@ -51,10 +59,6 @@ void Player::Action(ObjectSignSheet& Paper) {
 	default:
 		break;
 	}
-}
-
-Skill Player::getSkill() {
-	return skill;
 }
 
 int Player::MoveCheck(){

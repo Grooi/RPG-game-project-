@@ -2,7 +2,7 @@
 #include "Skill.h"
 
 Skill::Skill(double type) {
-	setFuncPtr();
+	//setFuncPtr();
 	setSkill(type);
 }
 Skill::Skill() {
@@ -12,26 +12,26 @@ void Skill::setSkill(double type) {
 	if (type == 1) {
 		healCheck = true;
 		AttackCheck = true;
+		weakCheck = true;
 	}
 	if (type == 2) {
 		healCheck = true;
 		AttackCheck = true;
+		weakCheck = false;
 	}
 }
 
-double Skill::Attack() {
-	return -10;
-}
-
-double Skill::heal() {
-	return 15;
-}
-
-int* Skill::getHealCD() {
+int* Skill::HealCD() {
 	return &healCD;
 }
 
+WeakPage* Skill::weakinfo() {
+	return &weakPage;
+}
+
+/*
 void Skill::setFuncPtr() {
 	func[0] = &Attack;
 	func[1] = &heal;
 }
+*/

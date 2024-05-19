@@ -10,13 +10,17 @@
 #include "NPC.h"
 #include "Wall.h"
 #include "LogicJudge.h";
+#include "Object.h"
+
+static int width = 25, length = 25, size = 16;
 
 int main() {
 	//創建視窗
-	int width = 25, length = 25, size = 16;
+	
 	sf::RenderWindow windows(sf::VideoMode(length * size, width * size), "Rpg-Game");
 	windows.setFramerateLimit(20);
 	windows.setVerticalSyncEnabled(true);
+	system("mode con cols=50 lines=25");
 	//創建資料儲存空間
 	ObjectSignSheet Paper(&length, &width, &size);//資料表單
 	//創建圖片
@@ -35,16 +39,8 @@ int main() {
 	sf::Event event;
 	bool FirstCheck = true;//檢測是否是第一次載入
 	//載入牆壁物件
-	MapDataLoder::loadRectangleShapeMap(Paper, &width, &length, &size);
-	/*
-	for (int y = 0; y < length; y++) {//查看RectangleShapeMap內容
-		for (int x = 0; x < width; x++) {
-			std::cout << "[ x:" << Paper.RectangleShapeMap[y][x].getPosition().x/16 ;
-			std::cout << " y:" << Paper.RectangleShapeMap[y][x].getPosition().y/16 << "]" << std::endl;
-		}
-		std::cout << std::endl;
-	}
-	*/
+	//MapDataLoder::loadRectangleShapeMap(Paper, &width, &length, &size);
+
 	//遊戲循環
 	while (windows.isOpen()) {
 		windows.clear();
@@ -57,7 +53,8 @@ int main() {
 		//事件處理
 		player.Action(Paper);
 		LogicJudge::ImpackCheck(Paper, player);
-
+		LogicJudge::MapChange(Paper, player, "house2", windows);
+		
 		//更新資料
 		
 
@@ -72,6 +69,9 @@ int main() {
 		for(int i = 0; i < Paper.wallObject.size(); i++) {//繪製牆壁
 			windows.draw(Paper.wallObject[i].getSprite());
 		}
+		for (int i = 0; i < Paper.StairsObject.size(); i++) {//繪製牆壁
+			windows.draw(Paper.StairsObject[i].getSprite());
+		}
 		for (int i = 0; i < Paper.doorObject.size(); i++) {//繪製門
 			if (!Paper.doorObject[i].getState()) {
 				windows.draw(Paper.doorObject[i].getSprite());
@@ -81,8 +81,10 @@ int main() {
 			windows.draw(Paper.NpcSpace[i].getSprite());
 		}
 		
+		//Paper.mapUpdata("house2.txt", size);
 		windows.draw(player.getSprite());
-		//windows.draw(player.getCollisionBlock());//測試(非遊玩時顯示)
+		windows.draw(player.collisionBlockFace);//測試(非遊玩時顯示)
+		player.collisionBlockFace.setPosition(*player.getFace());
 		windows.display();
 	}
 }

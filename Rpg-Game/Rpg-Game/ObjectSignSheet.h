@@ -6,6 +6,7 @@
 #include "Wall.h"
 #include "door.h"
 #include "NPC.h"
+#include "Stairs.h"
 
 class ObjectSignSheet {
 public:
@@ -13,20 +14,23 @@ public:
 	void sign(double, std::string);
 	void setNpcSpace(int*, int*, int*, double);
 	void setWallObject(int*, int*, int*, double);
+	void setStairsObject(int*, int*, int*, double);
 	void setDoorObject(int*, int*, int*, double);
 
-	void mapUpdata(std::string);
+	void mapUpdata(std::string, int&);
 
 	std::map<int, std::string> getSheet();
 
 	std::vector<sf::RectangleShape> RectangleShapeMap;
 	std::vector<std::vector<int>> MapData;
 	std::vector<wall> wallObject;
+	std::vector<Stairs> StairsObject;
 	std::vector<door> doorObject;
 	std::vector<NPC> NpcSpace;
+	int* length, * width, * size;
 
 private:
-	int length, width;
+	
 	std::map<int, std::string> PictureSheet;
 	std::map<int, std::string> Sheet;
 };

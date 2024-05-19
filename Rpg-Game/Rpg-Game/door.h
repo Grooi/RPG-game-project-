@@ -2,12 +2,11 @@
 #define DOOR_H
 #include <SFML/Graphics.hpp>
 #include "Local_image.h"
-#include "Enity.h"
+#include "Object.h"
 
-class door : public Enity{
+class door : public Object{
 public:
 	door();
-
 	void setState();
 	bool getState() const;
 	void LockAndUnlockDoor();

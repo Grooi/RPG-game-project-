@@ -12,18 +12,21 @@ ObjectSignSheet::ObjectSignSheet(int* l, int* w, int* size) {
 	Sheet[4] = "wooden_door";
 	Sheet[5] = "stairs";
 
-	length = *l;
-	width = *w;
+	length = l;
+	width = w;
+	this->size = size;
 
 	//載入地圖資料
-	MapDataLoder::setArray(MapData, &length, &width);
-	MapDataLoder::loadMapData(MapData, &length, &width, "house.txt");
+	MapDataLoder::setArray(MapData, length, width);
+	MapDataLoder::loadMapData(MapData, length, width, "house.txt");
 
-	setWallObject(&length, &width, size, 2);
+	setWallObject(length, width, size, 2);
 
-	setDoorObject(&length, &width, size, 4);
+	setStairsObject(length, width, size, 5);
+
+	setDoorObject(length, width, size, 4);
 	
-	setNpcSpace(&length, &width, size, 3);
+	setNpcSpace(length, width, size, 3);
 
 	std::cout << "Paper.created" << std::endl;
 }
@@ -33,6 +36,14 @@ void ObjectSignSheet::setWallObject(int* length, int* width, int* size, double t
 	for (int i = 0; i < wallObject.size(); i++) {
 		wallObject[i].setPosition(MapDataLoder::findPoint(MapData, width, length, size, type));
 		MapData[wallObject[i].getPosition()->y / (*size)][wallObject[i].getPosition()->x / (*size)] = 0;
+	}
+}
+
+void ObjectSignSheet::setStairsObject(int* length, int* width, int* size, double type) {
+	StairsObject.resize(StairsObject.size() + MapDataLoder::setDataSize(MapData, width, length, type));
+	for (int i = 0; i < StairsObject.size(); i++) {
+		StairsObject[i].setPosition(MapDataLoder::findPoint(MapData, width, length, size, type));
+		MapData[StairsObject[i].getPosition()->y / (*size)][StairsObject[i].getPosition()->x / (*size)] = 0;
 	}
 }
 
@@ -61,6 +72,15 @@ std::map<int, std::string> ObjectSignSheet::getSheet() {
 	return Sheet;
 }
 
-void ObjectSignSheet::mapUpdata(std::string type) {
-	MapDataLoder::loadMapData(MapData, &length, &width, type);
+void ObjectSignSheet::mapUpdata(std::string type, int& size) {
+	MapDataLoder::loadMapData(MapData, length, width, type);
+	wallObject.clear();
+	StairsObject.clear();
+	doorObject.clear();
+	NpcSpace.clear();
+	setWallObject(length, width, &size, 2);
+	setStairsObject(length, width, &size, 5);
+	setDoorObject(length, width, &size, 4);
+	setNpcSpace(length, width, &size, 3);
+	std::cout << "Paper.created" << std::endl;
 }

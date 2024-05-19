@@ -1,32 +1,29 @@
 #ifndef ENITY_H
 #define ENITY_H
 #include <SFML/Graphics.hpp>
+#include <string>
+#include "Skill.h"
 
+struct EnityInfo {
+	double hp = 1;
+	double mp = 1;
+	double ATK = 1;
+	double speed = 8;
+	double Defense = 1;
+};
 class Enity {
 public:
 	Enity();
-	sf::RectangleShape getCollisionBlock();
-	sf::Sprite getSprite();
-	void setOrigin(int, int);
-	void setCollisionBlock(const sf::Vector2f*);
-	void setPosition(const sf::Vector2f);
-	void setHp(const double*);
-	void setMp(const double*);
-	sf::Vector2f* getPosition();
-	double* getSpeed();
-	double* getHP();
-	double* getMP();
-	std::string getType();
-	void deleteEnity();
+	void setEnityInfo(const EnityInfo*);
+	const EnityInfo* getEnityInfo();
+	void setOriginEnityInfo();
+	const EnityInfo* getOriginEnityInfo();
+	Skill* getSkill();
+	std::string* getName();
 protected:
-	std::string type;
-	sf::RectangleShape collisionBlock;
-	sf::Vector2f size = sf::Vector2f(16, 16);
-	sf::Vector2f position;
-	sf::Texture texture;
-	sf::Sprite Picture;
-	double speed = 8;
-	double hp = 100;
-	double mp = 100;
+	std::string name;
+	EnityInfo info;
+	EnityInfo Origin_info;
+	Skill skill;
 };
 #endif
