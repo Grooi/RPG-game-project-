@@ -1,4 +1,0 @@
-PictureMap[0] = "wooden_floor.png";
-PictureMap[1] = "player.png";
-PictureMap[2] = "gray_wall.png";
-PictureMap[4] = "wooden_door.png";
