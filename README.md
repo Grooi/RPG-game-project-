@@ -27,13 +27,14 @@
 請先去https://www.sfml-dev.org/download.php 下載sfml
 並解壓後放在D槽，若是沒有D槽則改放C槽，找到環境配置中的V/C++與C/C++當中有SFML的項目並將其中的D:改成C:
 
+![SFML](https://github.com/Grooi/RPG-game-project-/assets/165006213/d92c1813-afbc-4b2d-8150-62c76e992014)
 ![螢幕擷取畫面 2024-06-19 122642](https://github.com/Grooi/RPG-game-project-/assets/165006213/19c92b14-c521-4de7-83b5-3d4a1bc037fc)
 ![螢幕擷取畫面 2024-06-19 122724](https://github.com/Grooi/RPG-game-project-/assets/165006213/4815437c-8864-466d-a061-0148957130e7)
 
 之後需要把以下檔案放在RPG-Game資料夾裡面
 ![螢幕擷取畫面 2024-06-19 123409](https://github.com/Grooi/RPG-game-project-/assets/165006213/9cb27f1b-89e8-4c93-9779-d885d92baf18)
 
-![SFML](https://github.com/Grooi/RPG-game-project-/assets/165006213/d92c1813-afbc-4b2d-8150-62c76e992014)
+
 
 
 
