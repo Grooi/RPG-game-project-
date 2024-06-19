@@ -29,6 +29,9 @@
 
 ![SFML](https://github.com/Grooi/RPG-game-project-/assets/165006213/d92c1813-afbc-4b2d-8150-62c76e992014)
 
+![螢幕擷取畫面 2024-06-19 122642](https://github.com/Grooi/RPG-game-project-/assets/165006213/19c92b14-c521-4de7-83b5-3d4a1bc037fc)
+![螢幕擷取畫面 2024-06-19 122724](https://github.com/Grooi/RPG-game-project-/assets/165006213/4815437c-8864-466d-a061-0148957130e7)
+
 
 
 
