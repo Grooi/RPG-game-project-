@@ -27,6 +27,10 @@
 請先去https://www.sfml-dev.org/download.php 下載sfml
 並解壓後放在D槽，若是沒有D槽則改放C槽，找到環境配置中的V/C++與C/C++當中有SFML的項目並將其中的D:改成C:
 
+![SFML](https://github.com/Grooi/RPG-game-project-/assets/165006213/d92c1813-afbc-4b2d-8150-62c76e992014)
+
+
+
 
 #程式畫面截圖:
 
@@ -37,5 +41,5 @@
 
 #分工資訊:
 梁興銘:程式的建構
-謝岸天:未分配
-李宗勳:
+謝岸天:程式檢查、簡報製作
+李宗勳:失蹤
